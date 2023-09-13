@@ -25,7 +25,7 @@ public class unionfind {
             a = StdIn.readInt();
             b = StdIn.readInt();
             used++;
-            int id_a = find(a) , i );
+            int id_a = find(a) , id_b = find(b);
             if ( id_a != id_b) {
                 union(id_a , id_b);
                 count--;
