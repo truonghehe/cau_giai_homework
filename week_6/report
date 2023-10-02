@@ -1,0 +1,36 @@
+InsertionSort:
+(1)
+1Kints = 3ms
+2Kints = 7ms
+4Kints = 10ms
+8Kints = 20ms
+16Kints = 37ms
+32Kints = 132ms
+1Mints = 122250ms
+(2)
+1000 Random numbers: 3ms
+(3)
+ascending array (32000ints) = 1ms
+(4)
+descending array ( 32000ints) = 262ms
+(5)
+elementally equal array (32000ins) = 1ms
+
+SelectionSort:
+(1)
+1Kints = 2ms
+2Kints = 6ms
+4Kints = 14ms
+8Kints = 30ms
+16Kints = 90ms
+32Kints = 347ms
+1Mints = 318290ms
+(2)
+1000 Random numbers: 2ms
+(3)
+ascending array (32000ints) = 102ms
+(4)
+descending array ( 32000ints) = 377ms
+(5)
+elementally equal array (32000ints) = 102ms
+

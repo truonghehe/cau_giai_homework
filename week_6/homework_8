@@ -1,0 +1,2 @@
+Insertion sort sẽ hữu ích hơn nếu sử dụng linkedlist do việc thay đổi vị trí của phần tử sẽ dễ dàng hơn so với sử dụng mảng hay list thông thường
+Selection sort ngược lại với việc phải truy cập vào 1 phần tử ngẫu nhiên của mảng sẽ không phù hợp với linkedlist do phải truy vấn từ đầu tới địa điểm của phần tử đó
