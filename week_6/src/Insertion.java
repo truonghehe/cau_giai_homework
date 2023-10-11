@@ -2,6 +2,8 @@ import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdArrayIO;
 import edu.princeton.cs.algs4.StdRandom;
 
+import java.util.Random;
+
 class Insertion {
     public static void insertionSort(int[] a) {
         for (int i = 1; i < a.length; i++) {
@@ -18,9 +20,10 @@ class Insertion {
     }
     public static void main(String[] args) {
         In in = new In("/Users/chuongdz/Desktop/algorithms/documents/algs4-data/1Mints.txt");
+        Random random = new Random();
         int[] a = new int[32000];
         for (int i = 0; i < 32000; i++) {
-            a[i] = 0;
+            a[i] = random.nextInt(32000);
         }
         long start = System.currentTimeMillis();
         insertionSort(a);

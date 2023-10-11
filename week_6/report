@@ -8,7 +8,7 @@ InsertionSort:
 32Kints = 132ms
 1Mints = 122250ms
 (2)
-1000 Random numbers: 3ms
+32000 Random numbers: 220ms
 (3)
 ascending array (32000ints) = 1ms
 (4)

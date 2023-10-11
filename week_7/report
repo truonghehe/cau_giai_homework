@@ -1,0 +1,86 @@
+InsertionSort:
+(1)
+1Kints = 3ms
+2Kints = 7ms
+4Kints = 10ms
+8Kints = 20ms
+16Kints = 37ms
+32Kints = 132ms
+1Mints = 122250ms
+(2)
+32000 Random numbers: 220ms
+(3)
+ascending array (32000ints) = 1ms
+(4)
+descending array ( 32000ints) = 262ms
+(5)
+elementally equal array (32000ins) = 1ms
+
+SelectionSort:
+(1)
+1Kints = 2ms
+2Kints = 6ms
+4Kints = 14ms
+8Kints = 30ms
+16Kints = 90ms
+32Kints = 347ms
+1Mints = 318290ms
+(2)
+1000 Random numbers: 2ms
+(3)
+ascending array (32000ints) = 102ms
+(4)
+descending array ( 32000ints) = 377ms
+(5)
+elementally equal array (32000ints) = 102ms
+
+MergeSort:
+1Kints = 1ms
+2Kints = 2ms
+4Kints = 2ms
+8Kints = 3ms
+16Kints = 5ms
+32Kints = 12ms
+1Mints = 205ms
+(2)
+32000 Random numbers: 10ms
+(3)
+ascending array (32000ints) = 6ms
+(4)
+descending array ( 32000ints) = 6ms
+(5)
+elementally equal array (32000ints) = 5ms
+
+QuickSort (with shuffle):
+1Kints = 2ms
+2Kints = 2ms
+4Kints = 2.5ms
+8Kints = 4ms
+16Kints = 6ms
+32Kints = 14ms
+1Mints = 183ms
+(2)
+32000 Random numbers: 9ms
+(3)
+ascending array (32000ints) = 9ms
+(4)
+descending array ( 32000ints) = 9ms
+(5)
+elementally equal array (32000ints) = 7ms
+
+QuickSort (without shuffle):
+1Kints = 0ms
+2Kints = 1ms
+4Kints = 1ms
+8Kints = 2ms
+16Kints = 3ms
+32Kints = 7ms
+1Mints = 150ms
+(2)
+32000 Random numbers: 6ms
+(3)
+ascending array (32000ints) = Stack overflow
+(4)
+descending array ( 32000ints) = 760ms
+(5)
+elementally equal array (32000ints) = 3ms
